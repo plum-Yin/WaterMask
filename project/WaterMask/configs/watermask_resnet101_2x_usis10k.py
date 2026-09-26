@@ -17,7 +17,8 @@ custom_imports = dict(imports=['project.WaterMask.watermask'], allow_failed_impo
 
 ## ---------------------- MODEL_SETTING -------------------------
 
-num_classes=len({{_base_.CLASSES}})
+# num_classes=len({{_base_.CLASSES}})
+num_classes = 7
 
 model = dict(
     backbone=dict(
